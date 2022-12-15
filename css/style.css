@@ -1,23 +1,25 @@
-/* Universal Selectors */
+/* Universal */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-align: center;
-    font-family:'Fira Sans', Arial, Helvetica, sans-serif;
-    border: 1px solid red;
+    font-family:'Fira Sans', Helvetica, Arial, sans-serif;
+
+    /* For Visual Purpose*/
+    border: 1px red solid;
 }
 
 body {
     background-color: rgb(219, 104, 51)
 }
 
-/* Header Selectors */
+/* Header */
 header {
     padding: 17px;
 }
 
-/* Nav Selectors */
+/* Nav */
 nav ul li {
     display: inline;
 }
@@ -39,11 +41,16 @@ li a:hover {
     font-weight: 900;
 }
 
-/* Main Selectors */
+/* Main */
 section {
     padding: 12px;
 }
 
+.title-bar {
+    background-color: #E8DB7D;
+}
+
+/* Color Section */
 span {
     display: block;
 }
@@ -81,6 +88,28 @@ span {
     font-weight: normal;
 }
 
-.title-bar {
-    background-color: #E8DB7D;
+/* Font Section */
+.fira-sans {
+    font-family: 'Fira Sans';
 }
+
+.helvetica {
+    font-family: Helvetica;
+}
+
+.arial {
+    font-family: arial;
+}
+
+.font-example {
+    margin: 22px 11px;
+    padding: 22px;
+    font-size: 22px;
+    text-align: left;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.8);
+    border-radius: 11px;
+}
+
+/* Text Style Section */
