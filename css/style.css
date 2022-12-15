@@ -7,7 +7,7 @@
     font-family:'Fira Sans', Helvetica, Arial, sans-serif;
 
     /* For Visual Purpose*/
-    border: 1px red solid;
+    /* border: 1px solid red; */
 }
 
 body {
@@ -42,6 +42,9 @@ li a:hover {
 }
 
 /* Main */
+main {
+    margin-bottom: 32px;
+}
 section {
     padding: 12px;
 }
@@ -50,8 +53,24 @@ section {
     background-color: #E8DB7D;
 }
 
+.back-to-top {
+    display: block;
+    text-align: right;
+    font-size: 11px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+    font-weight: bolder;
+}
+
 /* Color Section */
-span {
+#colors span {
     display: block;
 }
 
@@ -113,3 +132,48 @@ span {
 }
 
 /* Text Style Section */
+.cabin-sketch {
+    font-family: 'Cabin Sketch';
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.special-elite {
+    font-family: 'Special Elite';
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.paragraph {
+    font-family: 'Fira Sans';
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+.text-example {
+    margin: 22px 11px;
+    padding: 22px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.8);
+    border-radius: 11px;
+}
+
+.text-pad {
+    display: inline-block;
+    width: 55%;
+    border-bottom: 1px solid rgb(65, 74, 83);
+    padding-bottom: 7px;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(65, 74, 83);
+    padding: 9px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
