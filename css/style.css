@@ -7,11 +7,18 @@
     font-family:'Fira Sans', Helvetica, Arial, sans-serif;
 
     /* For Visual Purpose*/
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 body {
     background-color: rgb(219, 104, 51)
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 /* Header */
@@ -83,7 +90,7 @@ a:hover {
 }
 
 #bg-color {
-    background-color: #db6833
+    background-color: #db6833;
 }
 
 #accent-color {
@@ -165,6 +172,18 @@ a:hover {
     width: 55%;
     border-bottom: 1px solid rgb(65, 74, 83);
     padding-bottom: 7px;
+}
+
+/* Box Shadow Section */
+.box-shadow-example {
+    display: inline-block;
+    height: 123px;
+    width: 234px;
+    border: 1px solid black;
+    border-radius: 11px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin: 11px;
+    background-color: #6CA6C1;
 }
 
 /* Footer */
